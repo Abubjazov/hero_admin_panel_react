@@ -1,29 +1,55 @@
 {
-    "heroes": [
-        {
-            "id": 1,
-            "name": "Первый герой",
-            "description": "Первый герой в рейтинге!",
-            "element": "fire"
-        },
-        {
-            "id": 2,
-            "name": "Неизвестный герой",
-            "description": "Скрывающийся в тени",
-            "element": "wind"
-        },
-        {
-            "id": 3,
-            "name": "Морской герой",
-            "description": "Как аквамен, но не из DC",
-            "element": "water"
-        }
-    ],
-    "filters": [
-        "all",
-        "fire",
-        "water",
-        "wind",
-        "earth"
-    ]
+  "heroes": [
+    {
+      "id": "ec807a32-05ec-47a5-ad99-372a23027838",
+      "name": "Ктулху",
+      "description": "Всё",
+      "element": "earth"
+    },
+    {
+      "id": "58fe80b5-4dec-42c4-8b79-4f79aa2cf121",
+      "name": "Саб Зеро",
+      "description": "Замораживать",
+      "element": "wind"
+    },
+    {
+      "id": "ba3a841a-1617-4744-aaaf-f769439c0cde",
+      "name": "Китана",
+      "description": "Красивая",
+      "element": "water"
+    },
+    {
+      "id": "58302949-c990-4741-bebc-340c99513d94",
+      "name": "Капитан Очевидность",
+      "description": "Очевидеть",
+      "element": "fire"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
 }
