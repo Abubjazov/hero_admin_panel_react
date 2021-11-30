@@ -5,24 +5,6 @@
       "name": "Ктулху",
       "description": "Всё",
       "element": "earth"
-    },
-    {
-      "id": "58fe80b5-4dec-42c4-8b79-4f79aa2cf121",
-      "name": "Саб Зеро",
-      "description": "Замораживать",
-      "element": "wind"
-    },
-    {
-      "id": "ba3a841a-1617-4744-aaaf-f769439c0cde",
-      "name": "Китана",
-      "description": "Красивая",
-      "element": "water"
-    },
-    {
-      "id": "58302949-c990-4741-bebc-340c99513d94",
-      "name": "Капитан Очевидность",
-      "description": "Очевидеть",
-      "element": "fire"
     }
   ],
   "filters": [
