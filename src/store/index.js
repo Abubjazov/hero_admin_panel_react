@@ -3,6 +3,14 @@ import { createStore, combineReducers, compose } from 'redux';
 import filters from '../reducers/filters';
 import heroes from '../reducers/heroes';
 
+const stringMaddleWare = ({ dispatch, getState }) => (dispatch) => (action) => {
+    if (typeof action === 'string') {
+        return dispatch({ type: action })
+    }
+
+    return dispatch(action)
+}
+
 const enhancer = (createStore) => (...args) => {
     const store = createStore(...args);
     const oldDispatch = store.dispatch;
