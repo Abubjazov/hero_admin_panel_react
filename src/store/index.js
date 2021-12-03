@@ -2,7 +2,6 @@ import { configureStore } from '@reduxjs/toolkit';
 import { apiSlice } from '../api/apiSlice';
 
 import filters from '../components/heroesFilters/filtersSlice';
-import heroes from '../components/heroesList/heroesSlice';
 
 const stringMiddleware = () => (next) => (action) => {
     if (typeof action === 'string') {
@@ -14,7 +13,6 @@ const stringMiddleware = () => (next) => (action) => {
 
 const store = configureStore({
     reducer: {
-        heroes,
         filters,
         [apiSlice.reducerPath]: apiSlice.reducer
     },

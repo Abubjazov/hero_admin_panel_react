@@ -23,36 +23,35 @@
       "name": "Капитан Джек Воробей",
       "description": "Один из великих комбинаторов",
       "element": "wind"
-    },
-    {
-      "id": "f5622e94-e136-4884-a938-bc81eab4ad83",
-      "name": "ЧОрт",
-      "description": "Быть чертом",
-      "element": "water"
     }
   ],
   "filters": [
-    { "id": "all",
+    {
+      "id": "all",
       "name": "all",
       "label": "Все",
       "className": "btn-outline-dark"
     },
-    { "id": "fire",
+    {
+      "id": "fire",
       "name": "fire",
       "label": "Огонь",
       "className": "btn-danger"
     },
-    { "id": "water",
+    {
+      "id": "water",
       "name": "water",
       "label": "Вода",
       "className": "btn-primary"
     },
-    { "id": "wind",
+    {
+      "id": "wind",
       "name": "wind",
       "label": "Ветер",
       "className": "btn-success"
     },
-    { "id": "earth",
+    {
+      "id": "earth",
       "name": "earth",
       "label": "Земля",
       "className": "btn-secondary"
